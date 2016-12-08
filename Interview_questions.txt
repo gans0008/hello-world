@@ -1,0 +1,76 @@
+Arrays, Strings, Linked lists
+-----------------------------------
+1) Print all anagrams of a word.
+
+2) Find if a string is a rotation of another string.
+
+3) Let T[1..n] be a sorted array of distinct integers. Give a divide and conquer algorithm that finds an index 'i' such that T[i] = i
+
+4) Given a set T of characters and a string S, find the minimum window in S which will contain all the characters in T in complexity O(n).
+
+eg,
+S = “ADOBECODEBANC”
+T = “ABC”
+
+Minimum window is “BANC”.
+
+5) Kth node from end in linked list.
+
+6) Loop in a linked list. variation - get the entry node of the loop.
+
+Analytical
+-----------
+1) There is a building of 100 floors. If an egg drops from the Nth floor or above it will break. If it’s dropped from any floor below, it will not break. You’re given 2 eggs. Find N, while minimizing the number of drops for the worst case.
+
+Data structures : stack, trees, trie
+------------------------------------
+1) Give a tree (any tree, can be a binary. I told the interviewer that I assume it is binary tree and he said that is fine). Print the tree content on the screen one tree level per line
+
+i.e.
+if a tree is like this:
+a
+/ \
+b c
+/ /
+e f
+The output would be
+a
+bc
+ef 
+
+
+2) Implement a queue with two stacks
+
+3) How would you design a stack which, in addition to push and pop, also has a function min which returns the minimum element? Push, pop and min should all operate in O(1) time.
+
+4) Say you have a string: "Thisisasentence". How would you separate the string into separate words, return either the sentence with spaces or as a list/array where each entry is a word.
+
+5) Lowest common ancestors of two nodes in binary tree.
+
+6) Maximal palindrome
+
+Dynamic progr
+-------------
+ 
+1) Given a mapping of alphabets to integers as follows: 
+
+ 1 = A 
+ 2 = B 
+ 3 = C 
+ ... 
+ 26 = Z 
+
+Given any combination of the mapping numbers as string, return the number of ways in which the input string can be split into sub-strings and represented as character strings. For e.g. given 
+ "111" -> "AAA", "AK", "KA" -> 3 
+Valid combinations are ({1,1,1}, {1,11},{11,1}) = 3 
+ "11" -> "AA", "K" -> 2 
+Valid combinations are ({1,1},{11}) = 2 
+ "123" -> "ABC", "LC", "AW" -> 3 
+Valid combinations are ({1,2,3},{1,23},{12,3}) = 3 
+
+You don't have to return all the mappings, only the number of valid mappings.
+
+
+
+
+
